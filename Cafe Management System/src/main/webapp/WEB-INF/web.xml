@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<!-- -->
+	<!-- LoginServlet Mapping -->
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>com.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	<!-- RegisterServletMapping -->
+	<servlet>
+		<servlet-name>register</servlet-name>
+		<servlet-class>com.servlet.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>register</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+	<!-- AddCategoryServlet Mapping -->
+	<servlet>
+		<servlet-name>category</servlet-name>
+		<servlet-class>com.servlet.AddCategoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>category</servlet-name>
+		<url-pattern>/category</url-pattern>
+	</servlet-mapping>
+	<!-- AddProductServlet Mapping -->
+	<servlet>
+		<servlet-name>product</servlet-name>
+		<servlet-class>com.servlet.AddProductServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>product</servlet-name>
+		<url-pattern>/product</url-pattern>
+	</servlet-mapping>
+	<!-- OrderServlet Mapping -->
+	<servlet>
+		<servlet-name>order</servlet-name>
+		<servlet-class>com.servlet.OrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>order</servlet-name>
+		<url-pattern>/order</url-pattern>
+	</servlet-mapping>
+	<!-- ApproveOrderServlet Mapping -->
+	<servlet>
+		<servlet-name>approve</servlet-name>
+		<servlet-class>com.servlet.ApproveOrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>approve</servlet-name>
+		<url-pattern>/approveOrder</url-pattern>
+	</servlet-mapping>
+	<!-- TestServlet Mapping -->
+	<servlet>
+		<servlet-name>test</servlet-name>
+		<servlet-class>com.servlet.TestServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>test</servlet-name>
+		<url-pattern>/test</url-pattern>
+	</servlet-mapping>
+	<!-- EditCategoryServlet Mapping -->
+	<servlet>
+		<servlet-name>editCategory</servlet-name>
+		<servlet-class>com.servlet.EditCategoryServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>editCategory</servlet-name>
+		<url-pattern>/editCategory</url-pattern>
+	</servlet-mapping>
+	<!-- EditProductServlet Mapping -->
+	<servlet>
+		<servlet-name>editProduct</servlet-name>
+		<servlet-class>com.servlet.EditProductServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>editProduct</servlet-name>
+		<url-pattern>/editProduct</url-pattern>
+	</servlet-mapping>
+	<!-- DeleteUserServlet Mapping -->
+	<servlet>
+		<servlet-name>deleteUser</servlet-name>
+		<servlet-class>com.servlet.DeleteUserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteUser</servlet-name>
+		<url-pattern>/deleteUser</url-pattern>
+	</servlet-mapping>
+	<!-- DeleteBillServlet mapping -->
+	<servlet>
+		<servlet-name>deleteBill</servlet-name>
+		<servlet-class>com.servlet.DeleteBillServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteBill</servlet-name>
+		<url-pattern>/deleteBill</url-pattern>
+	</servlet-mapping>
+	<!-- EditProfileServlet mapping -->
+	<servlet>
+		<servlet-name>editProfile</servlet-name>
+		<servlet-class>com.servlet.EditProfileServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>editProfile</servlet-name>
+		<url-pattern>/editProfile</url-pattern>
+	</servlet-mapping>
+	<!-- ForgotPasswordServlet Mapping -->
+	<servlet>
+		<servlet-name>forgotPassword</servlet-name>
+		<servlet-class>com.servlet.ForgotPasswordServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>forgotPassword</servlet-name>
+		<url-pattern>/forgotPassword</url-pattern>
+	</servlet-mapping>
+	<!-- welcome file list -->
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>
